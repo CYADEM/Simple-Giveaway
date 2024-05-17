@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haz un Sorteo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Realizar Un</h1>
+        <h2>Sorteo</h2>
+    </header>
+    <section class="participants">
+        <div class="title">
+            <h3>Ingresar Participantes</h3>
+            <p>Formato - Número: Nombre</p>
+        </div>
+        <div class="input">
+            <textarea name="" id="participants-input" cols="50" rows="20"></textarea>
+        </div>
+        <button id="add-participants">Ingresar Participantes</button>
+    </section>
+    <section class="winners">
+        <div class="get-winners">
+            <p>¿Cuantos ganadores deseas obtener?</p>
+            <input type="number" value="1" id="winners-quantity">
+        </div>
+        <button id="get-winners">Obtener Ganadores</button>
+        <div class="form">
+            <h3>Los ganadores son:</h3>
+            <div class="list">
+            </div>
+        </div>
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
